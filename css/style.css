@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.login-body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  width: 360px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.login-card h1 {
+  margin-bottom: 8px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.login-card p {
+  margin-bottom: 25px;
+  color: #64748b;
+  text-align: center;
+}
+
+.login-card label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #334155;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-card button:hover {
+  background: #1d4ed8;
+}
+
+#mensagemErro {
+  display: block;
+  margin-top: 15px;
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
