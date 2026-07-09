@@ -8,6 +8,7 @@ formulario.addEventListener("submit", function (event) {
   const senha = document.getElementById("senha").value;
 
   if (usuario === "admin" && senha === "123456") {
+    localStorage.setItem("usuarioLogado", "true");
     window.location.href = "index.html";
   } else {
     mensagemErro.textContent = "Usuário ou senha inválidos.";
