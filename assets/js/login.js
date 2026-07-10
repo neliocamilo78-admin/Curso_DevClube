@@ -7,9 +7,9 @@ formulario.addEventListener("submit", function (event) {
   const usuario = document.getElementById("usuario").value;
   const senha = document.getElementById("senha").value;
 
-  if (usuario === "admin" && senha === "123456") {
+  if (usuario === "admin" && senha === "MnQs1978") {
     localStorage.setItem("usuarioLogado", "true");
-    window.location.href = "index.html";
+    window.location.href = "../../index.html";
   } else {
     mensagemErro.textContent = "Usuário ou senha inválidos.";
   }
